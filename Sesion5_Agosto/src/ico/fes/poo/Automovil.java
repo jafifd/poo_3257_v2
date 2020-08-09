@@ -24,20 +24,20 @@ public void setModelo(int mod ){
 public int setModelo(){
     return this.modelo;
 }
-public String setMarca(){
+public String getMarca(){
    return Marca;
 }
 public void setMarca(String Marca){
    this.Marca = Marca;
 }
-public void setSubMarca(String SubMarca){
+public void getsubMarca(String SubMarca){
     this .SubMarca= SubMarca;
 }
 public String setSubMarca(){
     return SubMarca;
     
 }
-public void setColor(String Color){
+public void getColor(String Color){
 
     this.Color = Color;
    

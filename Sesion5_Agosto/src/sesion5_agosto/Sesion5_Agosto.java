@@ -13,16 +13,22 @@ import ico.fes.poo.Automovil;
  */
 public class Sesion5_Agosto {
 
+   
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
      Automovil miCarro=new Automovil();
-     //miCarro.Marca=" chevrolet";
-     //miCarro.SubMarca="cavalier";
+    //miCarro.Marca=" chevrolet";
+    //miCarro.SubMarca="cavalier";
      //miCarro.modelo=2016;
-     //miCarro.color="negro";
-     miCarro.setModelo(2075);
+     //miCarro.Color="negro";
+     //miCarro.setModelo(2075);
+      miCarro.setMarca("Marca");
+        miCarro.setColor();
+        miCarro.setSubMarca();
+        miCarro.setModelo(2016);
      float x = miCarro.avanzar(100);
         System.out.println("Avanzados="+x);
         
@@ -31,6 +37,9 @@ public class Sesion5_Agosto {
         //miCarroDos.SubMarca="Mustang";
         //miCarroDos.color="Amarillo";
         //miCarroDos.modelo= 2010;
+        miCarroDos.setMarca("deee");
+        miCarroDos.setColor();
+        miCarroDos.setSubMarca();
         miCarroDos.setModelo(2010);
         System.out.println("Avanzados="+ miCarroDos.avanzar(500));
         
@@ -43,8 +52,12 @@ public class Sesion5_Agosto {
         //miCarroTres.SubMarca="NSX";
         //miCarroTres.color="gris";
         //miCarroTres.modelo=2013;
+        miCarroTres.setMarca("Marca");
+        miCarroTres.setColor();
+        miCarroTres.setSubMarca();
+        miCarroTres.setModelo(2013);
         System.out.println("Avanzados="+ miCarroTres.avanzar(500));
-        
+        System.out.println(miCarroTres);
         System.out.println(miCarro.toString());          
 // TODO code application logic here
     }
