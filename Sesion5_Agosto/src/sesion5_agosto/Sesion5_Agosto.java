@@ -37,7 +37,7 @@ public class Sesion5_Agosto {
         //miCarroDos.SubMarca="Mustang";
         //miCarroDos.color="Amarillo";
         //miCarroDos.modelo= 2010;
-        miCarroDos.setMarca("deee");
+        miCarroDos.setMarca("Marca");
         miCarroDos.setColor();
         miCarroDos.setSubMarca();
         miCarroDos.setModelo(2010);
@@ -57,7 +57,7 @@ public class Sesion5_Agosto {
         miCarroTres.setSubMarca();
         miCarroTres.setModelo(2013);
         System.out.println("Avanzados="+ miCarroTres.avanzar(500));
-        System.out.println(miCarroTres);
+        System.out.println(miCarroTres.toString());
         System.out.println(miCarro.toString());          
 // TODO code application logic here
     }
