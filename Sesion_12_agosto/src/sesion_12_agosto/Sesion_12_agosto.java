@@ -18,12 +18,14 @@ public class Sesion_12_agosto {
      */
     public static void main(String[] args) {
         
-        foco f1= new foco();
+        foco f1= new foco(); // f1 instance
         System.out.println(f1);
         foco f2=new foco("Phillips");
         System.out.println(f2);
         foco f3=new foco("Cristal","led", "Boch", true, 60.00f);
         System.out.println(f3);
+        String nombre ="Ivan Jafifd";
+        System.out.println(nombre.charAt(6));
     }
     
 }
