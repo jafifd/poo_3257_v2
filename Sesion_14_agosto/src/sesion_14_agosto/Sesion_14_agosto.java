@@ -28,6 +28,8 @@ public class Sesion_14_agosto {
                 new Cpu("Intel", 3.2f, 8)
                 ,null,null);
                System.out.println(c2);
+   
+    
     }
     
 }
