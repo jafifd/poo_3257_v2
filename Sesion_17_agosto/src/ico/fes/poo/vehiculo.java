@@ -56,6 +56,8 @@ public class vehiculo {
  
  
 public void usas(){
-    System.out.println("Utilizando el vehiculo"+ descripcion);
+    System.out.println(
+            "Utilizando el ferrocarril que viaja en vias ferreas "
+               +" de la marca " +this.getFabricante());
 }
 }

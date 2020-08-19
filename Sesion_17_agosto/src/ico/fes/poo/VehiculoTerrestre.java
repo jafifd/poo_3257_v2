@@ -21,6 +21,13 @@ public class VehiculoTerrestre extends vehiculo {
         this.kmPorHora = kmPorHora;
     }
 
+    public VehiculoTerrestre(int tipo, String kmPorHora, String descripcion, String fabricante, String material) {
+        super(descripcion, fabricante, material);
+        this.tipo = tipo;
+        this.kmPorHora = kmPorHora;
+    }
+    
+
     public String getKmPorHora() {
         return kmPorHora;
     }
