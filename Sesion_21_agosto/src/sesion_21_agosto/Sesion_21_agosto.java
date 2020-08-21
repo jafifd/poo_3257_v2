@@ -7,6 +7,7 @@ package sesion_21_agosto;
 
 import ico.fes.poo.Circulo;
 import ico.fes.poo.Cuadrado;
+import ico.fes.poo.Figura;
 
 /**
  *
@@ -25,8 +26,23 @@ public class Sesion_21_agosto {
         c1.calcularArea();
         Cuadrado d1 = new Cuadrado(5,10);
         int res=d1.calcularArea();
-       
-        System.out.println("Area cuadrado ="+res);        
+       System.out.println("Area cuadrado ="+res);        
+       int opcion=0;
+       //capturar opcion
+    switch(opcion){
+        case Figura.Circulo:
+            System.out.println("Circulo");
+            break;
+            case Figura.Cuadrado:
+            System.out.println("Cuadrado");
+            break;
+            case Figura.Triangulo:
+            System.out.println("Triangulo");
+            break;
+            
+        default:
+            throw new AssertionError();
+        }
     }
     
 }
